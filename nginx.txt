@@ -1,0 +1,17 @@
+Installing nginx
+
+Download 
+https://nginx.org/en/download.html
+
+Move it to C:\
+
+cd C:\
+unzip nginx-x.x.x.zip
+ren nginx-x.x.x nginx
+cd nginx
+start nginx
+
+Control:
+nginx -s [ stop | quit | reopen | reload ]
+
+For problems look in c:nginxlogserror.log or in EventLog.
